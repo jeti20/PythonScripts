@@ -2,8 +2,6 @@ from requests import get
 from json import loads
 from terminaltables import  AsciiTable
 
-#https://www.youtube.com/watch?v=ks6C3VWzT4M
-
 CITIES = ['Poznań']
 def main():
     url = 'https://danepubliczne.imgw.pl/api/data/synop/'
